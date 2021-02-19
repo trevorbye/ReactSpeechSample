@@ -1,6 +1,6 @@
-# React Speech Sample
+# React Speech service sample app
 
-This sample shows how to integrate the Azure Speech service in a React application, and shows design pattern examples for authentication token exchange and management, as well as capturing audio from a microphone or file for speech-to-text conversions.
+This sample shows how to integrate the Azure Speech service into a sample React application. This sample shows design pattern examples for authentication token exchange and management, as well as capturing audio from a microphone or file for speech-to-text conversions.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ This sample shows how to integrate the Azure Speech service in a React applicati
 
 ## Change recognition language
 
-To change the source recognition language, change the locale strings in `App.js` lines **32** and **66**, which sets the recognition language property on the `SpeechConfig` object.
+To change the source recognition language, change the locale strings in `App.js` lines **32** and **66**, which sets the recognition language property on the `SpeechConfig` object. For example, the default is US English:
 
 ```javascript
 speechConfig.speechRecognitionLanguage = 'en-US'
